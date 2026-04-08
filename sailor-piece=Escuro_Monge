@@ -133,10 +133,6 @@ local theChosenOne = omg[randomIndex]
 local eh_success, err = pcall(function()
 
 local hasJoinedDiscord = "fk taolao_DiscordJoined.txt"
-
-if not isfile(hasJoinedDiscord) then
-    local discordInvite = "https://discord.gg/mcMEkVdebJ"
-    local inviteCode = "mcMEkVdebJ"
     
     Library:Notify("Join our Discord for updates!", 5)
     
